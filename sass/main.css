@@ -366,11 +366,11 @@ body {
           perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
-  height: 50rem;
+  height: 52rem;
 }
 
 .card__side {
-  height: 50rem;
+  height: 52rem;
   -webkit-transition: all .8s ease;
   transition: all .8s ease;
   position: absolute;
