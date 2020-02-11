@@ -12,6 +12,7 @@
     top: 0;
     left: 0;
     width: 100%;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     border-radius: 3px;
     overflow: hidden; // image overflows the parent. this hides the image corners and maintains border radius
@@ -151,7 +152,8 @@
   font-weight: 100;
   }
 
-  @include respond(tab-port) {
+  // @include respond(tab-port) {
+  @media screen and (max-width: 56.25em), only screen and (hover: none) {
     // FUNCTIONALITY
     height: auto;
     border-radius: 3px;
